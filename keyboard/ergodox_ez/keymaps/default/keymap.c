@@ -6,13 +6,18 @@
 #include "debug.h"
 #include "action_layer.h"
 
-#define WINDOWS 1  // default layer (for Windows)
-#define FN      2  // functions
-#define MOUSE   3  // mouse mode
+#define WINDOWS 0  // default layer (for Windows)
+#define FN      1  // functions
+#define MOUSE   2  // mouse mode
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* Keymap 1: Windows layer
  *
+*
+*
+*
+*
+*
  * ,--------------------------------------------------.           ,--------------------------------------------------.
  * |        |   1  |   2  |   3  |   4  |   5  | `~   |           |  `~  |   6  |   7  |   8  |   9  |   0  |   -    |
  * |--------+------+------+------+------+-------------|           |------+------+------+------+------+------+--------|
