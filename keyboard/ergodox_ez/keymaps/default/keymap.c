@@ -42,7 +42,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         LCTL(KC_X),     LCTL(KC_V),   LCTL(KC_C),   KC_LEFT,  KC_RGHT,
                                                KC_NO,         KC_NO,
                                                               KC_NO,
-                                               KC_SPC,KC_BSPC,TO(MOUSE,1),
+                                               KC_SPC,KC_BSPC,TG(2),
         // right hand
              KC_GRV,      KC_6,   KC_7,   KC_8,   KC_9,   KC_0,             KC_MINS,
              KC_NO,       KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,             KC_BSLS,
@@ -51,7 +51,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                   KC_UP,  KC_DOWN,KC_NO,  KC_NO,            KC_NO,
              KC_NO,        KC_NO,
              KC_NO,
-             MO(FN),KC_ENT , KC_SPC
+             MG(1),KC_ENT , KC_SPC
     ),
 
 /* Keymap 2: Function Layer
@@ -91,7 +91,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        KC_F7, KC_F8,   KC_F9, KC_F10,  KC_F11, KC_F12, RESET,
        KC_NO, KC_NO,   KC_NO, KC_NO,   KC_NO,  KC_NO,  KC_NO,
               KC_NO,   KC_NO, KC_NO,   KC_NO,  KC_NO,  KC_NO,
-       TO(WINDOWS,0),  KC_NO,KC_NO, KC_NO,   KC_NO,  KC_NO,  KC_NO,
+       TG(1),  KC_NO,KC_NO, KC_NO,   KC_NO,  KC_NO,  KC_NO,
 	                   KC_NO, KC_NO,   KC_NO,  KC_NO,  KC_NO,
 	
        KC_NO, KC_MUTE,
@@ -135,7 +135,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        KC_F7,         KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_NO,
        KC_NO,         KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
                       KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
-       TO(WINDOWS,0), KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+       TG(2), KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
                       KC_ACL2, KC_ACL1, KC_ACL0, KC_NO,   KC_NO,
        KC_BTN4, KC_BTN3,
        KC_PGUP,
