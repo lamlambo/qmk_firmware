@@ -89,7 +89,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	
                                                               KC_NO, KC_NO,
                                                                      KC_NO,
-                                                     KC_SPC, KC_ENT, KC_TRNS,
+                                                     KC_SPC, KC_ENT, KC_NO,
        // right hand
        KC_F7, KC_F8,   KC_F9, KC_F10,  KC_F11, KC_F12, RESET,
        KC_NO, KC_NO,   KC_NO, KC_NO,   KC_NO,  KC_NO,  KC_NO,
@@ -99,7 +99,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	
        KC_NO, KC_MUTE,
        KC_NO,
-       KC_NO, KC_VOLD, KC_VOLU
+       KC_TRNS, KC_VOLD, KC_VOLU
     ),
     
 /* Keymap 3: Mouse Layer
@@ -133,7 +133,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        KC_NO,     KC_NO,    KC_NO,   KC_WH_L, KC_WH_R,
                                                              KC_NO,  KC_NO,
                                                                      KC_PGDN,
-                                                     KC_SPC, KC_ENT, KC_NO,
+                                                     KC_SPC, KC_ENT, KC_TRNS,
        // right hand
        KC_F7,         KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_NO,
        KC_NO,         KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
@@ -142,7 +142,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                       KC_ACL2, KC_ACL1, KC_ACL0, KC_NO,   KC_NO,
        KC_BTN4, KC_BTN3,
        KC_PGUP,
-       KC_TRNS, KC_BTN1, KC_BTN2
+       KC_No, KC_BTN1, KC_BTN2
     ),
 };
 
