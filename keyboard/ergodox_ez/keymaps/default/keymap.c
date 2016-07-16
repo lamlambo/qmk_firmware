@@ -1,5 +1,6 @@
 // modified following file.
 // https://github.com/msc654/qmk_firmware/blob/master/keyboard%2Fergodox_ez%2Fkeymaps%2Fdefault%2Fkeymap.c
+// test
 
 #include "ergodox_ez.h"
 #include "debug.h"
