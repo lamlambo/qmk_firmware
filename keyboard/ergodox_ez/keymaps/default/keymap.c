@@ -10,6 +10,9 @@
 #define FN      1  // functions
 #define MOUSE   2  // mouse mode
 
+
+//  
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* Keymap 1: Windows layer
  * ,--------------------------------------------------.           ,--------------------------------------------------.
@@ -91,7 +94,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        KC_F7, KC_F8,   KC_F9, KC_F10,  KC_F11, KC_F12, RESET,
        KC_NO, KC_NO,   KC_NO, KC_NO,   KC_NO,  KC_NO,  KC_NO,
               KC_NO,   KC_NO, KC_NO,   KC_NO,  KC_NO,  KC_NO,
-       TG(0),  KC_NO,KC_NO, KC_NO,   KC_NO,  KC_NO,  KC_NO,
+       LT(0,KC_NO),  KC_NO,KC_NO, KC_NO,   KC_NO,  KC_NO,  KC_NO,
 	                   KC_NO, KC_NO,   KC_NO,  KC_NO,  KC_NO,
 	
        KC_NO, KC_MUTE,
@@ -135,7 +138,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        KC_F7,         KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_NO,
        KC_NO,         KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
                       KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
-       TG(0), KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+       LT(0,KC_NO),   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
                       KC_ACL2, KC_ACL1, KC_ACL0, KC_NO,   KC_NO,
        KC_BTN4, KC_BTN3,
        KC_PGUP,
