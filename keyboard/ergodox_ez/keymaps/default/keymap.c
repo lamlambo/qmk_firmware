@@ -139,7 +139,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        KC_F7,         KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_NO,
        KC_NO,         KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
                       KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
-       TO(WINDOWS,1), KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
+       TO(WINDOWS,0), KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,
                       KC_ACL2, KC_ACL1, KC_ACL0, KC_NO,   KC_NO,
        KC_BTN4, KC_BTN3,
        KC_PGUP,
