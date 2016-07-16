@@ -42,7 +42,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         LCTL(KC_X),     LCTL(KC_V),   LCTL(KC_C),   KC_LEFT,  KC_RGHT,
                                                KC_NO,         KC_NO,
                                                               KC_NO,
-                                               KC_SPC,KC_BSPC,TG(2),
+                                               KC_SPC,KC_BSPC,MO(2),
         // right hand
              KC_GRV,      KC_6,   KC_7,   KC_8,   KC_9,   KC_0,             KC_MINS,
              KC_NO,       KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,             KC_BSLS,
@@ -51,7 +51,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                   KC_UP,  KC_DOWN,KC_NO,  KC_NO,            KC_NO,
              KC_NO,        KC_NO,
              KC_NO,
-             TG(1),KC_ENT , KC_SPC
+             MO(1),KC_ENT , KC_SPC
     ),
 
 /* Keymap 2: Function Layer
