@@ -34,7 +34,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *                                 |      |      | FN   |       | Mouse|        |      |
  *                                 `--------------------'       `----------------------'
  */
-// If it accepts an argument (i.e, is a function), it doesn't need KC_
+// If it accepts an argument (i.e, is a function), it doesn't need KC
+// 
 // Otherwise, it needs KC_*
 [WINDOWS] = KEYMAP(  // layer 0 : default
         // left hand
@@ -51,9 +52,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
              KC_LALT,     KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,             KC_LBRC,
                           KC_H,   KC_J,   KC_K,   KC_L,   KC_SCLN,          KC_QUOT,
              KC_BSLS,     KC_N,   KC_M,   KC_COMM,KC_DOT, KC_SLSH,          KC_RO,
-                                  KC_UP,  KC_DOWN,KC_HE,  KC_RBRC,            KC_BSLS,
+                                  KC_UP,  KC_DOWN,KC_NUHS,  KC_RBRC,        KC_BSLS,
              KC_BTN1,        KC_BTN2,
-             KC_NO,
+             KC_NUBS,
              TG(FN),KC_ENT , KC_SPC
     ),
 
